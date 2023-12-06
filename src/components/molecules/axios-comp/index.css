@@ -1,0 +1,13 @@
+.product-list {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 40px;
+}
+
+.product-card {
+  margin-right: 30px;
+}
+
+.product-card:last-child {
+  margin-right: 0;
+}
